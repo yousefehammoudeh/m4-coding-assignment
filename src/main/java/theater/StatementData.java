@@ -31,13 +31,12 @@ public class StatementData {
 
     private PerformanceData createPerformanceData(Performance performance) {
         Play play = plays.get(performance.getPlayID());
+        AbstractPerformanceCalculator calculator = AbstractPerformanceCalculator.createPerformanceCalculator(performance, play);
         int amount = calculateAmount(performance, play);
         int volumeCredits = calculateVolumeCredits(performance, play);
-        return new PerformanceData(play.getName(), performance.getAudience(),
+        return new PerformanceData(play.getName(), performance.getAudience(), 
                 play.getType(), amount, volumeCredits);
-    }
-
-    private int calculateAmount(Performance performance, Play play) {
+    }    private int calculateAmount(Performance performance, Play play) {
         int result;
         switch (play.getType()) {
             case "tragedy":
