@@ -1,2 +1,4 @@
+f68948d Task 2.1 - Extracted switch statement to getAmount method, renamed variables, created getPlay helper, removed play parameter, inlined thisAmount variable
+fbd0a12 Task 1.2 - Updated log.txt with git commit history
 e8e06d6 Task 1.1 - Fixed CheckStyle issues: encapsulated fields with getters, added final modifiers, added braces to if statements, added Javadoc comments, replaced magic numbers with constants, fixed static modifier order
 d8a200e Initial commit
