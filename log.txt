@@ -1,3 +1,5 @@
+5e23767 Task 2.3 - Inlined frmt variable and created usd helper method for currency formatting
+024238b Updated log.txt for Task 2.2
 3274f3e Task 2.2 - Extracted volume credits calculation into getVolumeCredits method
 1faad20 Updated log.txt for Task 2.1
 f68948d Task 2.1 - Extracted switch statement to getAmount method, renamed variables, created getPlay helper, removed play parameter, inlined thisAmount variable
