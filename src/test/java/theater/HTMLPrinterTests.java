@@ -10,19 +10,17 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
-
 public class HTMLPrinterTests {
 
     private static String loadString(String path) {
         try {
             return new String(Objects.requireNonNull(HTMLPrinterTests.class
-                            .getClassLoader()
-                            .getResourceAsStream(path))
+                    .getClassLoader()
+                    .getResourceAsStream(path))
                     .readAllBytes());
+        } catch (IOException exception) {
+            fail("resource file could not be loaded prior to test executing");
         }
-        catch (IOException exception) {
-                fail("resource file could not be loaded prior to test executing");
-            }
         return "";
     }
 
