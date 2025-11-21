@@ -14,7 +14,11 @@ public class StatementPrinter {
         this.statementData = new StatementData(invoice, plays);
     }
 
-    private String usd(int amount) {
+    protected StatementData getStatementData() {
+        return statementData;
+    }
+
+    protected String usd(int amount) {
         return NumberFormat.getCurrencyInstance(Locale.US).format(amount / Constants.PERCENT_FACTOR);
     }
 
