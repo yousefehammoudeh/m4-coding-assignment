@@ -1,3 +1,5 @@
+f3750c6 Task 3.1 - Split Phase refactoring with StatementData and PerformanceData classes
+2f94a7e Updated log.txt for Task 2.4
 0508232 Task 2.4 - Split loops and extracted getTotalVolumeCredits and getTotalAmount methods
 9678af1 Updated log.txt for Task 2.3
 5e23767 Task 2.3 - Inlined frmt variable and created usd helper method for currency formatting
