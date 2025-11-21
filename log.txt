@@ -1,0 +1,2 @@
+e8e06d6 Task 1.1 - Fixed CheckStyle issues: encapsulated fields with getters, added final modifiers, added braces to if statements, added Javadoc comments, replaced magic numbers with constants, fixed static modifier order
+d8a200e Initial commit
