@@ -1,3 +1,5 @@
+1032991 Task 4.1 - Created AbstractPerformanceCalculator with factory method
+5e522bb Updated log.txt for Task 3.2
 c120000 Task 3.2 - Implemented HTML output with HTMLStatementPrinter subclass
 b87db65 Updated log.txt for Task 3.1
 f3750c6 Task 3.1 - Split Phase refactoring with StatementData and PerformanceData classes
