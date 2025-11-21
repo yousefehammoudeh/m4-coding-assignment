@@ -1,3 +1,5 @@
+9c94498 Task 4.3 - Created TragedyCalculator and ComedyCalculator polymorphic subclasses
+37edee2 Updated log.txt for Task 4.2
 14c1dbd Task 4.2 - Moved amountFor and volumeCredits calculations to AbstractPerformanceCalculator
 aaece14 Updated log.txt for Task 4.1
 1032991 Task 4.1 - Created AbstractPerformanceCalculator with factory method
